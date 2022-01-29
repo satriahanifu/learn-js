@@ -1,0 +1,30 @@
+.body {
+  background-color: violet;
+}
+.umum {
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+}
+.leftbar {
+  min-width: 2vw;
+  background-color: salmon;
+  display: flex;
+  flex-direction: row;
+}
+.main {
+  min-width: 20vw;
+  min-height: 50vh;
+  background-color: springgreen;
+}
+.rigthbar {
+  background-color: steelblue;
+}
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5%;
+  min-width: 5vw;
+  min-height: 10vw;
+  background-color: azure;
+}

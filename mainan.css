@@ -1,0 +1,39 @@
+:root {
+  --primary-color: rgb(81, 84, 252);
+  --secondary-color: rgb(250, 175, 14);
+}
+
+.tab-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-color: #aeaeae;
+}
+.tab-item {
+  background-color: var(--primary-color);
+  font-size: 1, 6rem;
+  padding: 1.25rem 5rem;
+  margin-left: 1rem;
+}
+
+.tab-content {
+  display: none;
+  font-size: 1.6rem;
+  padding: 2.5rem 7rem 6.5rem 7rem;
+}
+.tab-item--active {
+  background-color: var(--secondary-color);
+}
+.tab-item:hover {
+  background-color: var(--secondary-color);
+}
+.container-content {
+  display: none;
+  font-size: 1.6rem;
+  padding: 2.5rem 7rem 6.5rem 7rem;
+}
+
+.container-content--active {
+  display: flex;
+  flex-direction: column;
+}
